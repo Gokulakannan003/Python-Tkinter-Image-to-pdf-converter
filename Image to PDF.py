@@ -32,11 +32,11 @@ def select_file():
 lab = Label(root, background="light green")
 lab.pack()
 
-lab = Label(root, text="Image to PDF converter", background="light green", font=("Ariel", 18, "bold"))
-lab.pack()
+lab1 = Label(root, text="Image to PDF converter", background="light green", font=("Ariel", 18, "bold"))
+lab1.pack()
 
-lab = Label(root, background="light green")
-lab.pack()
+lab2 = Label(root, background="light green")
+lab2.pack()
 
 btn = Button(root, text="Select Image", command=select_file, background="violet", font=("Ariel", 12, "bold"))
 btn.pack(pady=20)
